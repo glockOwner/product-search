@@ -5,6 +5,8 @@
 
 **Для развертывания проекта необходимо скачать проект в папку с названием "***product-search***" запустить bash-скрипт ```bash deploy-project.sh```**
 
+Если в конце процесса выполнения скрипта появилась ошибка ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2), Нужно запустить скрипт повторно
+
 API метод получения отфильтрованного списка продуктов доступен по пути **localhost:87/api/products**.
 Тип метода - GET. Метод принимает на вход следующие query-параметры:
  - q (string | null) example: 'qwer'
